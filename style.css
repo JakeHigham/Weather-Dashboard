@@ -19,11 +19,13 @@ header {
 
 #search-form {
     display: inline-block;
+    margin: 0 auto;
 }
 
 label {
     font-size: 16px;
     margin-right: 5px;
+    font-weight: bold;
 }
 
 input[type="text"] {
@@ -70,4 +72,32 @@ h2 {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+#recent-cities {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+#recent-cities-list {
+    list-style: none;
+    padding: 0;
+}
+
+#recent-cities-list li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+#recent-cities-list li:hover {
+    background-color: #2980b9;
 }
