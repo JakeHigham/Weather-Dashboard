@@ -59,6 +59,13 @@ h2 {
     color: #333;
 }
 
+#weather-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgoldenrodyellow;
+    
+}
+
 #weather-info, #forecast-info {
     display: flex;
     justify-content: space-around;
