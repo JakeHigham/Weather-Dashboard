@@ -69,6 +69,7 @@ h2 {
 #weather-info, #forecast-info {
     display: flex;
     justify-content: space-around;
+    
 }
 
 .forecast-item {
@@ -109,6 +110,7 @@ h2 {
     background-color: #2980b9;
 }
 
+
 @media only screen and (max-width: 600px) {
     body {
         font-size: 14px; 
@@ -128,4 +130,3 @@ h2 {
 
     
 }
-
