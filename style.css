@@ -108,3 +108,24 @@ h2 {
 #recent-cities-list li:hover {
     background-color: #2980b9;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; 
+    }
+
+    #search-section {
+        margin-top: 10px; 
+    }
+
+    #search-form {
+        width: 100%; 
+    }
+
+    input[type="text"] {
+        width: 100%; 
+    }
+
+    
+}
+
